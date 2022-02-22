@@ -18,8 +18,17 @@ from django.urls import path, include
 from django.conf import settings
 # Schemas and Documentation
 
+# DOCS
+# from rest_framework_swagger.views import get_swagger_view
+from rest_framework.documentation import include_docs_urls
+from rest_framework import permissions
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/v1/auth', include('dj_rest_auth.urls')),
+    path('api/v1/auth/registration',
+         include('dj_rest_auth.registration.urls')),
 ]
 
 if settings.DEBUG:

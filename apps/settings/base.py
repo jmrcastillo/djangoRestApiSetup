@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     # 3rd party
     # REST Api
     'rest_framework',
+    # Authentication
+    'dj_rest_auth',
+    'dj_rest_auth.registration',
+    # Generate token on the server
+    'rest_framework.authtoken',
 ]
 
 # Custom User
