@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     # Authentication
     'dj_rest_auth',
     'dj_rest_auth.registration',
+    # Documentation
+    'drf_yasg',
     # Generate token on the server
     'rest_framework.authtoken',
 ]
