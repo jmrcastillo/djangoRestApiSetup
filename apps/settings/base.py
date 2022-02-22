@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    # Local
+    'users.apps.UsersConfig',
     # 3rd party
     # django-allauth
     'allauth',
