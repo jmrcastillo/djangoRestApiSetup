@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     # 3rd party
+    # django-allauth
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     # REST Api
     'rest_framework',
     # Authentication
