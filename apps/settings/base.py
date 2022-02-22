@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     # 3rd party
+    # REST Api
+    'rest_framework',
 ]
 
 # Custom User
