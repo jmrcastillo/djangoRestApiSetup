@@ -8,3 +8,7 @@ __pycache__
 __pycache__/
 .env
 .venv
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
